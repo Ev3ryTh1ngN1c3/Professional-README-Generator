@@ -1,13 +1,88 @@
-// TODO: Include packages needed for this application
+// Require inquirer 
+const inquirer = require('inquirer');
+const fs = require('fs');
 
-// TODO: Create an array of questions for user input
-const questions = [];
+// Create questions 
+const questions = [
+    {
+      type: 'input', 
+      name: 'title',
+      message: 'Project title?'
+    },
+    {
+      type: 'input',
+      name: 'description',
+      message: 'Description?'
+    },
+    {
+      type: 'list',
+      name: 'license', 
+      message: 'License?',
+      choices: ['MIT', 'GPL', 'Apache'] 
+    },
+    {
+      type: 'input',
+      name: 'installation',
+      message: 'Describe install process:'
+    }, 
+    {
+       type: 'input',
+       name: 'usage',
+       message: 'How is it used?'
+    },
+    {
+      type: 'input',
+      name: 'username',
+      message: 'GitHub username:'
+    } ,
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Your email address:'
+       },
+       {
+         type: 'input',
+         name: 'contributing', 
+         message: 'Provide contributing guidelines:'
+       }
+  ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// Call inquirer prompts
+inquirer.prompt(questions).then(answers => {
 
-// TODO: Create a function to initialize app
-function init() {}
+  // Take user responses    
+  const title = answers.title;
+  const description = answers.description;
 
-// Function call to initialize app
-init();
+  // Build README content
+  const readme = 
+  `# ${answers.title}
+  [![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)]
+  
+  ## Description
+  ${answers.description}
+  
+  ## Installation
+  ${answers.installation}
+  
+  ## Usage 
+  ${answers.usage}
+  
+
+  ## Contributing
+
+  ${answers.contributing}
+  
+  ## Questions
+  
+  Questions? Contact me at [${answers.email}](mailto:${answers.email})
+  
+  `;
+
+  // Write to file
+  fs.writeFile('README.md', readme, (err) => {
+    if (err) throw err;
+    console.log('README created!');
+  });
+
+});
