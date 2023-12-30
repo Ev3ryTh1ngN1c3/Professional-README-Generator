@@ -28,5 +28,3 @@
   ## Questions
   
   Questions? Contact me at [](mailto:)
-  
-  
