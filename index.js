@@ -67,7 +67,7 @@ inquirer.prompt(questions).then(answers => {
   * [Questions](#questions)
   
   # ${answers.title}
-  [![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)]
+  [![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)](https://opensource.org/license/${answers.license})
   
   ## Description
   ${answers.description}
