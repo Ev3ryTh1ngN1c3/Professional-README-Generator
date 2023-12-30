@@ -9,7 +9,7 @@
   * [Questions](#questions)
   
   # 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: GPL](https://img.shields.io/badge/License-GPL-yellow.svg)](https://opensource.org/license/GPL)
   
   ## Description
   
@@ -28,3 +28,5 @@
   ## Questions
   
   Questions? Contact me at [](mailto:)
+  
+  
