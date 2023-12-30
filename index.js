@@ -4,48 +4,48 @@ const fs = require('fs');
 
 // Create questions 
 const questions = [
-    {
-      type: 'input', 
-      name: 'title',
-      message: 'Project title?'
-    },
-    {
-      type: 'input',
-      name: 'description',
-      message: 'Description?'
-    },
-    {
-      type: 'list',
-      name: 'license', 
-      message: 'License?',
-      choices: ['MIT', 'GPL', 'Apache'] 
-    },
-    {
-      type: 'input',
-      name: 'installation',
-      message: 'Describe install process:'
-    }, 
-    {
-       type: 'input',
-       name: 'usage',
-       message: 'How is it used?'
-    },
-    {
-      type: 'input',
-      name: 'username',
-      message: 'GitHub username:'
-    } ,
-    {
-        type: 'input',
-        name: 'email',
-        message: 'Your email address:'
-       },
-       {
-         type: 'input',
-         name: 'contributing', 
-         message: 'Provide contributing guidelines:'
-       }
-  ];
+  {
+    type: 'input',
+    name: 'title',
+    message: 'Project title?'
+  },
+  {
+    type: 'input',
+    name: 'description',
+    message: 'Description?'
+  },
+  {
+    type: 'list',
+    name: 'license',
+    message: 'License?',
+    choices: ['MIT', 'GPL', 'Apache']
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Describe install process:'
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'How is it used?'
+  },
+  {
+    type: 'input',
+    name: 'username',
+    message: 'GitHub username:'
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'Your email address:'
+  },
+  {
+    type: 'input',
+    name: 'contributing',
+    message: 'Provide contributing guidelines:'
+  }
+];
 
 // Call inquirer prompts
 inquirer.prompt(questions).then(answers => {
@@ -55,8 +55,18 @@ inquirer.prompt(questions).then(answers => {
   const description = answers.description;
 
   // Build README content
-  const readme = 
-  `# ${answers.title}
+  const readme =
+    `
+  # Table of Contents
+
+  * [Professional README Generator](#professional-readme-generator)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
+  
+  # ${answers.title}
   [![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)]
   
   ## Description
