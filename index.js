@@ -33,7 +33,7 @@ const questions = [
   {
     type: 'input',
     name: 'username',
-    message: 'GitHub username:'
+    message: 'GitHub profile:'
   },
   {
     type: 'input',
@@ -86,6 +86,7 @@ inquirer.prompt(questions).then(answers => {
   ## Questions
   
   Questions? Contact me at [${answers.email}](mailto:${answers.email})
+  [Link to ${answers.username}'s GitHub profile] (https://github.com/${answers.username})
   
   `;
 
