@@ -27,7 +27,8 @@
   
   ## Questions
   
-  Questions? Contact me at [](mailto:)
-  Link to GitHub profile for node[Ev3ryTh1ngN1c3](https://github.com/Ev3ryTh1ngN1c3)
+  Questions? Contact me at [BrongoArtDecor@gmail.com](mailto:BrongoArtDecor@gmail.com)
+  
+  Link to GitHub profile for [Ev3ryTh1ngN1c3](https://github.com/Ev3ryTh1ngN1c3)
   
   
