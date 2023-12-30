@@ -9,7 +9,7 @@
   * [Questions](#questions)
   
   # 
-  [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/license/Apache)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
   
   ## Description
   
@@ -28,5 +28,6 @@
   ## Questions
   
   Questions? Contact me at [](mailto:)
+  [Link to Ev3ryTh1ngN1c3's GitHub profile] (https://github.com/Ev3ryTh1ngN1c3)
   
   
