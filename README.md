@@ -9,7 +9,7 @@
   * [Questions](#questions)
   
   # 
-  [![License: GPL](https://img.shields.io/badge/License-GPL-yellow.svg)](https://opensource.org/license/GPL)
+  [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/license/Apache)
   
   ## Description
   
