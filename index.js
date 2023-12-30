@@ -86,7 +86,7 @@ inquirer.prompt(questions).then(answers => {
   ## Questions
   
   Questions? Contact me at [${answers.email}](mailto:${answers.email})
-  Link to GitHub profile for [${answers.username}](https://github.com/${answers.username})
+  Link to GitHub profile for node[${answers.username}](https://github.com/${answers.username})
   
   `;
 

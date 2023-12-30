@@ -28,6 +28,6 @@
   ## Questions
   
   Questions? Contact me at [](mailto:)
-  [Link to Ev3ryTh1ngN1c3's GitHub profile] (https://github.com/Ev3ryTh1ngN1c3)
+  Link to GitHub profile for node[Ev3ryTh1ngN1c3](https://github.com/Ev3ryTh1ngN1c3)
   
   
