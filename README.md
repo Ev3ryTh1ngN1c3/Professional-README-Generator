@@ -1,8 +1,8 @@
-[Professional README Generator](#Professional README Generator)
-[Description](#Description)
-[Usage](#Usage)
-[Contributing](#Contributing)
-[Questions](#Questions)
+[Professional README Generator](#professional-readme-generator)
+[Description](#description)
+[Usage](#usage)
+[Contributing](#contributing)
+[Questions](#questions)
 
 # Professional README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
