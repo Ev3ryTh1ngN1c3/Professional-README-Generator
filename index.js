@@ -61,7 +61,7 @@ inquirer.prompt(questions).then(answers => {
 
   * [Professional README Generator](#professional-readme-generator)
   * [Description](#description)
-  * [Installation](#installation)
+  * [Installation](#innodestallation)
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Questions](#questions)
